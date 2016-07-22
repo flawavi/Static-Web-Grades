@@ -5,13 +5,6 @@ var ordered = scores.sort((y,x)=>{
 });
 console.log(ordered);
 
-// var highestGrade = ordered.slice(-1).pop()
-// console.log(highestGrade);
-
-// var lowestGrade = ordered.slice().shift()
-// console.log(lowestGrade);
-// var numOfGrade;
-
 for (var i = 0; i < ordered.length; i++) {
   var lowestGrade = ordered.slice(-1).pop()
   console.log(lowestGrade);
